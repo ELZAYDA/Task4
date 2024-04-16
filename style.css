@@ -120,4 +120,66 @@ a:hover{
     text-align: center;
     
 }
-  
+#services{
+    background-color: black;
+
+}
+h2{
+    color: white;
+}
+.container-1{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-1 img{
+    width: 50%;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.container-1 div{
+    width: 50%;
+    background-color: white;
+    margin-left: -150px;
+    border-radius: 10px;
+}
+.container-1 div h2{
+    border-bottom: #0000006b 2px solid;
+    font-size: 70px;
+    text-transform: capitalize;
+    margin: auto;
+    font-family: forum, serif;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    text-align: center;    
+    padding: 50px;
+    color: black;
+}
+.container-1 div p{
+    font-size: 40px;
+    font-family: forum, serif;
+    letter-spacing: 0.15em;
+    padding: 30px;
+}
+.container-1 div button{
+    width: 150px;
+    height: 60px;
+    background: wheat;
+    font-family: forum, serif;
+    letter-spacing: 0.15em;
+    font-size: 17px;
+    margin-bottom: -30px;
+    margin-left: 40%;
+}
+.container-1 div button:hover{
+    color: rgba(0, 0, 0, 0.575);
+    cursor: pointer;
+
+}
+.container-1 img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
