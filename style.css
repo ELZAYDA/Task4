@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(salah1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero{
+    width: 70%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0.047);
+    border-radius: 20px; 
+}
+.logo{
+    color: white;
+    font-size: 35px;
+}
+span{
+    color: #f9004d;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+}
+ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 12px;
+    font-size: 20px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+a:hover{
+    color: #f9004d;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 70%;
+
+}
+.name{
+    color: white;
+    font-size: 106px;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+.photographer{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 32px;
+    margin-left: 126px;
+}
+#about{
+    width: 100%;
+    padding: 100px 0;
+    background-color: black;
+}
+#about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 50%;
+    margin: 70px
+}
+.main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 6px;
+}
+.about-text h2{
+    width: 50%;
+    margin: auto;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.about-text h2,.about-text .p2{
+    font-family: "Kite One", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 40px;
+}
+.p1{
+    color: white;
+    font-size: 70px;
+    text-transform: capitalize;
+    width: 80%;
+    margin: auto;
+    font-family: forum, serif;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    text-align: center;
+    
+}
+  
